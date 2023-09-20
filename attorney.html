@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous" />
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Our</title>
+    <style>
+        /* Add CSS to make table cell text bold */
+        .table td {
+            font-weight: bold;
+        }
+
+        /* Add CSS to change row thickness to 8px */
+        .table td,
+        .table th {
+            padding: 26px; /* Adjust the value as needed */
+        }
+        main{
+            height: 100vh;
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section class="container">
+        <nav>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="./images/logo2.png" alt="" />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/#services"
+                      >Services<svg
+                        id="i-chevron-right"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 32 32"
+                        width="16"
+                        height="16"
+                        fill="none"
+                        stroke="currentcolor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2">
+                        <path d="M12 30 L24 16 12 2" /></svg
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/#clients"
+                      >Clients<svg
+                        id="i-chevron-right"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 32 32"
+                        width="16"
+                        height="16"
+                        fill="none"
+                        stroke="currentcolor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2">
+                        <path d="M12 30 L24 16 12 2" /></svg
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"
+                      >Attorney<svg
+                        id="i-chevron-right"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 32 32"
+                        width="16"
+                        height="16"
+                        fill="none"
+                        stroke="currentcolor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2">
+                        <path d="M12 30 L24 16 12 2" /></svg
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/#"
+                      >Blog<svg
+                        id="i-chevron-right"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 32 32"
+                        width="16"
+                        height="16"
+                        fill="none"
+                        stroke="currentcolor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2">
+                        <path d="M12 30 L24 16 12 2" /></svg
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/#contact"
+                      >Contact Us<svg
+                        id="i-chevron-right"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 32 32"
+                        width="16"
+                        height="16"
+                        fill="none"
+                        stroke="currentcolor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2">
+                        <path d="M12 30 L24 16 12 2" /></svg
+                    ></a>
+                  </li>
+                </ul>
+                <div>
+                  <button
+                    class="btn btn-outline-secondary btn-ls-primary p-3"
+                    type="button"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                    Free Consultation
+                  </button>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="staticBackdrop"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="staticBackdropLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                            Free Consultation
+                          </h1>
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          poor people can get consultation totally free of cost
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal">
+                            Close
+                          </button>
+                          <button type="button" class="btn btn-primary">
+                            Understood
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </nav>
+        </div>
+      </section>
+    </header>
+
+    <main>
+        <div class="container mt-5">
+    <h1 class="mb-4">Attorney List</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody id="employee-table-body">
+            <!-- Employee data will be inserted here using JavaScript -->
+        </tbody>
+    </table>
+</div>
+
+<!-- Bootstrap Edit Employee Modal -->
+<div class="modal fade" id="editEmployeeModal" tabindex="-1" role="dialog" aria-labelledby="editEmployeeModalLabel" >
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editEmployeeModalLabel">Edit Attorney</h5>
+                <button id="closemodal" type="button" class="close" data-dismiss="modal" aria-label="Close" >
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Form for editing employee data -->
+                <form id="editEmployeeForm">
+                    <div class="form-group">
+                        <label for="editEmployeeName">Name</label>
+                        <input type="text" class="form-control" id="editEmployeeName" name="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="editEmployeePosition">Position</label>
+                        <input type="text" class="form-control" id="editEmployeePosition" name="position">
+                    </div>
+                    <div class="form-group">
+                        <label for="editEmployeeEmail">Email</label>
+                        <input type="email" class="form-control" id="editEmployeeEmail" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="editEmployeePhone">Phone</label>
+                        <input type="text" class="form-control" id="editEmployeePhone" name="phone">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="saveChangesBtn">Save Changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+    </main>
+    <footer>
+      <!-- Footer Section Start -->
+      <section style="background-color: black">
+        <div class="container">
+          <div class="row text-white">
+            <div class="col-6 col-md-3 mb-5" style="margin-top: 120px">
+              <img src="./images/logo.png" class="mb-5" alt="" />
+              <p>
+                Legal Solutions is a dynamic law firm with a clear vision of the
+                future. We are a firm that understands what clients need today
+                and, equally importantly, what they will need tomorrow.
+              </p>
+            </div>
+            <div class="col-6 col-md-3 mb-5" style="margin-top: 120px">
+              <h4 class="mb-5 font-ls-garamond">Useful Link</h4>
+              <div>
+                <a href="/#" class="text-decoration-none d-block text-white"
+                  >Homes</a
+                >
+                <br />
+                <a href="/#services" class="text-decoration-none d-block text-white"
+                  >Services</a
+                >
+                <br />
+                <a href="#" class="text-decoration-none d-block text-white"
+                  >Attorney</a
+                >
+                <br />
+                <a href="#" class="text-decoration-none d-block text-white"
+                  >Blog</a
+                >
+                <br />
+                <a href="/#contact" class="text-decoration-none d-block text-white"
+                  >Contact Us</a
+                >
+              </div>
+            </div>
+            <div class="col-6 col-md-3 mb-5" style="margin-top: 120px">
+              <h4 class="mb-5 font-ls-garamond">Contact Now</h4>
+              <p>
+                Ring road,<br />
+                Bengaluru, 535022
+              </p>
+              <br />
+              <p>+1234567<br />+9876544</p>
+              <br />
+              <p>info@gmail.com<br />info@gmail.com</p>
+            </div>
+            <div class="col-6 col-md-3 mb-5" style="margin-top: 120px">
+              <h4 class="mb-5 font-ls-garamond">Subscribe</h4>
+              <p>
+                Subscribe for our latest & Articles. We Won’t Give You Spam
+                Mails
+              </p>
+              <br />
+              <div class="input-group mb-3" style="height: 72px">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email Address"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2" />
+                <button
+                  class="btn btn-outline-secondary btn-ls-primary"
+                  style="width: 72px"
+                  type="button"
+                  id="button-addon2">
+                  <svg
+                    id="i-send"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 32 32"
+                    width="32"
+                    height="32"
+                    fill="none"
+                    stroke="currentcolor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2">
+                    <path d="M2 16 L30 2 16 30 12 20 Z M30 2 L12 20" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"></script>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<!-- Include Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+      <script src="/attornys.json"></script>
+
+    <script>
+        fetch('attornys.json')
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.getElementById('employee-table-body');
+                data.forEach(employee => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${employee.id}</td>
+                        <td>${employee.name}</td>
+                        <td>${employee.position}</td>
+                        <td>${employee.email}</td>
+                        <td>${employee.phone}</td>
+                    `;
+                    tableBody.appendChild(row);
+
+                    row.addEventListener('click', () => {
+                    // Fill the edit modal fields with employee data
+                    document.getElementById('editEmployeeName').value = employee.name;
+                    document.getElementById('editEmployeePosition').value = employee.position;
+                    document.getElementById('editEmployeeEmail').value = employee.email;
+                    document.getElementById('editEmployeePhone').value = employee.phone;
+
+                    // Show the edit modal
+                    $('#editEmployeeModal').modal('show');
+                    $('#closemodal').modal('hide');
+                });
+                });
+            })
+            .catch(error => console.error('Error fetching data:', error));
+
+                // Handle saving changes in the edit modal (you can customize this part)
+            document.getElementById('saveChangesBtn').addEventListener('click', () => {
+            // Get the edited data from the form
+            const editedName = document.getElementById('editEmployeeName').value;
+            const editedPosition = document.getElementById('editEmployeePosition').value;
+            const editedEmail = document.getElementById('editEmployeeEmail').value;
+            const editedPhone = document.getElementById('editEmployeePhone').value;
+
+            // Update the employee data (you can customize this part to save to your data source)
+            const employeeNameCell = document.querySelector('.employee-name');
+            employeeNameCell.textContent = editedName;
+
+            // Close the edit modal
+            $('#closemodal').modal('hide');
+            $('#editEmployeeModal').modal('hide');
+    });
+    </script>
+  </body>
+</html>

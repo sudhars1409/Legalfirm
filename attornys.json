@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Abhishek Biradar",
+    "position": "Advocate",
+    "email": "john@example.com",
+    "phone": "(123) 456-7890"
+  },
+  {
+    "id": 2,
+    "name": "Shivsagar",
+    "position": "Attorney",
+    "email": "jane@example.com",
+    "phone": "(234) 567-8901"
+  },
+  {
+    "id": 3,
+    "name": "Tasmiya",
+    "position": "Attorney",
+    "email": "jane@example.com",
+    "phone": "(234) 567-8901"
+  },
+  {
+    "id": 4,
+    "name": "Sudharshan",
+    "position": "Attorney",
+    "email": "jane@example.com",
+    "phone": "(234) 567-8901"
+  },
+  {
+    "id": 5,
+    "name": "Niranjan",
+    "position": "Attorney",
+    "email": "jane@example.com",
+    "phone": "(234) 567-8901"
+  }
+]

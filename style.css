@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-ls-garamond{
+    font-family: 'EB Garamond', serif;
+}
+
+.btn-ls-primary{
+    background-color: #4965d5;
+    color: white;
+}
